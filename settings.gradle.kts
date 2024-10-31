@@ -9,6 +9,15 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
+        jcenter()
+    }
+    resolutionStrategy {
+        eachPlugin {
+            when (requested.id.id) {
+                "com.google.gms.google-services" ->
+                    useModule("com.google.gms:google-services:4.4.1")
+            }
+        }
     }
 }
 dependencyResolutionManagement {
@@ -16,6 +25,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        jcenter()
     }
 }
 

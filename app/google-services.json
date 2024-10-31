@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "460142123160",
+    "project_id": "exflower-bcc04",
+    "storage_bucket": "exflower-bcc04.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460142123160:android:72cb4f9ca7211325b798ed",
+        "android_client_info": {
+          "package_name": "com.example.exflower"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9RVt1RrZDD7xCjbsAoLmUli_XJkM4FWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
